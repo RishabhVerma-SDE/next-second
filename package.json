@@ -7,7 +7,8 @@
     "build": "npm run format && npm run eslint . && next build",
     "start": "next start",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test" : "next test"
   },
   "dependencies": {
     "next": "14.2.7",
